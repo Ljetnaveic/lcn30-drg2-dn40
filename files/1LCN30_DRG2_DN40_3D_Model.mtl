@@ -1,0 +1,124 @@
+newmtl PIPE_SPOOL_1
+Kd 0.184 0.498 0.847
+d 1.00
+illum 2
+
+newmtl INSULATION_SPOOL_1
+Kd 0.812 0.839 0.871
+d 0.22
+illum 2
+
+newmtl PIPE_SPOOL_2
+Kd 0.878 0.541 0.173
+d 1.00
+illum 2
+
+newmtl INSULATION_SPOOL_2
+Kd 0.812 0.839 0.871
+d 0.22
+illum 2
+
+newmtl PIPE_SPOOL_3
+Kd 0.184 0.639 0.353
+d 1.00
+illum 2
+
+newmtl INSULATION_SPOOL_3
+Kd 0.812 0.839 0.871
+d 0.22
+illum 2
+
+newmtl PIPE_ITEM_8
+Kd 0.545 0.573 0.612
+d 1.00
+illum 2
+
+newmtl INSULATION_ITEM_8
+Kd 0.812 0.839 0.871
+d 0.22
+illum 2
+
+newmtl DRG_1_CONTINUATION_(ASSUMED)
+Kd 0.604 0.643 0.698
+d 0.35
+illum 2
+
+newmtl VALVE_1LCN30AA030
+Kd 0.753 0.224 0.169
+d 1.00
+illum 2
+
+newmtl VALVE_1LCN30AA400
+Kd 0.753 0.224 0.169
+d 1.00
+illum 2
+
+newmtl SUPPORT_1LCN30BQ070
+Kd 0.851 0.643 0.000
+d 1.00
+illum 2
+
+newmtl SUPPORT_1LCN30BQ037
+Kd 0.851 0.643 0.000
+d 1.00
+illum 2
+
+newmtl SUPPORT_1LCN30BQ036
+Kd 0.851 0.643 0.000
+d 1.00
+illum 2
+
+newmtl SUPPORT_1LCN30BQ071
+Kd 0.851 0.643 0.000
+d 1.00
+illum 2
+
+newmtl SUPPORT_1LCN30BQ035
+Kd 0.851 0.643 0.000
+d 1.00
+illum 2
+
+newmtl WELD_FW-1
+Kd 0.863 0.149 0.149
+d 1.00
+illum 2
+
+newmtl WELD_FW-2
+Kd 0.086 0.639 0.290
+d 1.00
+illum 2
+
+newmtl WELD_FW4
+Kd 0.086 0.639 0.290
+d 1.00
+illum 2
+
+newmtl WELD_FW5
+Kd 0.863 0.149 0.149
+d 1.00
+illum 2
+
+newmtl WELD_VW-1
+Kd 0.420 0.447 0.502
+d 1.00
+illum 2
+
+newmtl WELD_VW-2
+Kd 0.420 0.447 0.502
+d 1.00
+illum 2
+
+newmtl WELD_VW-3
+Kd 0.420 0.447 0.502
+d 1.00
+illum 2
+
+newmtl TIE-IN_0LCN50BR200
+Kd 0.486 0.227 0.929
+d 1.00
+illum 2
+
+newmtl FLOW_DIRECTION
+Kd 0.055 0.647 0.914
+d 1.00
+illum 2

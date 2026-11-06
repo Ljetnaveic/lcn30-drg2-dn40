@@ -1,0 +1,9 @@
+id,desc,loc,status,date,welder,src,X,Y,EL
+FW-1,Spool 1 to tie-in 0LCN50BR200,"Start of line, CONT. ON 0LCN50BR200",open,,,no date on sheet,91628,82209,4450
+FW-2,Spool 1 / Spool 2,1800 from B2 (site mark '1800+'),done,03.11.2026,HC130,hand mark-up,95450,84591,4450
+FW4,Spool 2 / Spool 3,~350 from B5 (scaled from mark-up),done,05.11.2026,HC130,hand mark-up (orange),98400,84941,4450
+FW5,Spool 3 to valve 1LCN30AA030,760 from B7,open,,,no date on sheet,97640,84591,5095
+FW-3,Not marked on this sheet,check DRG 1 / valve side,unknown,,,numbering gap FW-2 -> FW4,,,
+VW-1,Valve AA030 / pipe item <8>,valve end (not numbered on sheet),unknown,,,derived,97430,84591,5095
+VW-2,Pipe item <8> / valve AA400,valve end (not numbered on sheet),unknown,,,derived,96995,84591,5095
+VW-3,Valve AA400 / DRG 1 (30 deg bevel),valve end (not numbered on sheet),unknown,,,derived,96595,84591,5095
