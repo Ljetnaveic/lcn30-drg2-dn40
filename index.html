@@ -108,7 +108,7 @@ section{display:flex;flex-direction:column;gap:12px}
 .lbl3d.sup{color:var(--sup)} .lbl3d.valve{color:var(--valve)} .lbl3d.ghost{color:var(--muted);font-style:italic}
 .lbl3d.spool1{background:var(--sp1);color:#fff;border-color:var(--sp1)} .lbl3d.spool2{background:var(--sp2);color:#fff;border-color:var(--sp2)}
 .lbl3d.spool3{background:var(--sp3);color:#fff;border-color:var(--sp3)}
-@media (max-width:900px){.viewer{grid-template-columns:1fr}.panel{border-left:0;border-top:1px solid var(--line);max-height:none}.stage{height:440px}}
+@media (max-width:900px){.viewer{grid-template-columns:minmax(0,1fr)}.grp+.grp{padding-left:0;border-left:0}.panel{border-left:0;border-top:1px solid var(--line);max-height:none}.stage{height:440px}}
 
 /* 2D sheets */
 .tabs{display:flex;gap:4px;flex-wrap:wrap}
@@ -475,7 +475,8 @@ const views = {
 function setView(k) {
   const [dir, f] = views[k];
   controls.target.copy(center);
-  camera.position.copy(center).add(dir.clone().normalize().multiplyScalar(size * f * 1.25));
+  const narrow = Math.max(1, 1.3 / camera.aspect);  // portrait phones need more distance to fit the width
+  camera.position.copy(center).add(dir.clone().normalize().multiplyScalar(size * f * 1.25 * narrow));
   controls.update();
   for (const b of ['iso', 'top', 'south', 'east']) document.getElementById('v-' + b).setAttribute('aria-pressed', b === k ? 'true' : 'false');
 }
